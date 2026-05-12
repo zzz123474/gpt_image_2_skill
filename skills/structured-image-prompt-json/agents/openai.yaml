@@ -1,0 +1,5 @@
+interface:
+  display_name: "Structured Image Prompt JSON"
+  short_description: "Turn visual prompts into structured JSON layouts"
+  default_prompt: "Use $structured-image-prompt-json to rewrite my visual prompt as a structured JSON prompt with layout, text rules, negative prompt, and quality notes."
+
