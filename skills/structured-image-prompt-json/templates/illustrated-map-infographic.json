@@ -1,0 +1,111 @@
+{
+  "type": "illustrated map infographic",
+  "goal": "Create a dense but readable city food-walk map that combines tourism landmarks, local food spots, route guidance, and collectible poster charm.",
+  "style": "watercolor and ink hand-drawn illustration on vintage parchment, editorial travel-poster finish, charming but practical wayfinding design",
+  "canvas": {
+    "aspect_ratio": "3:4",
+    "orientation": "vertical",
+    "resolution_hint": "high"
+  },
+  "title_section": {
+    "text": "成都 吃货暴走地图",
+    "subtitle": "一张能看、能逛、能吃的城市美食导览图",
+    "mascot": "cartoon red chili pepper wearing sunglasses and giving a thumbs up"
+  },
+  "border": "decorative vine border of green leaves and red chili peppers, thin hand-drawn frame, playful but not cluttered",
+  "layout": {
+    "background": "textured beige parchment paper with yellow roads, blue rivers, pale green park areas, subtle street blocks, clean map hierarchy",
+    "centerpiece": "giant panda sitting and eating bamboo, integrated naturally near the city center as the visual anchor",
+    "sections": [
+      {
+        "title": "landmarks",
+        "purpose": "major city anchors for orientation",
+        "count": 6,
+        "illustrations": [
+          "traditional pavilion in a city park",
+          "traditional monastery complex",
+          "modern skyscraper with a climbing panda sculpture motif",
+          "tall TV tower",
+          "traditional gate and old alley entrance",
+          "industrial creative-park buildings"
+        ],
+        "labels": [
+          "人民公园",
+          "文殊院",
+          "IFS",
+          "339电视塔",
+          "宽窄巷子",
+          "东郊记忆"
+        ]
+      },
+      {
+        "title": "food_spots",
+        "purpose": "numbered food discoveries distributed around the map like a walking quest",
+        "count": 12,
+        "illustrations": [
+          "mapo tofu",
+          "dumplings in chili oil",
+          "skewers in pot",
+          "sticky rice balls",
+          "egg baking cake",
+          "nine-grid hotpot",
+          "sweet potato noodles",
+          "cold skewers",
+          "spicy mixed dish",
+          "covered tea bowl",
+          "ice jelly dessert",
+          "spicy rabbit heads"
+        ],
+        "labels": [
+          "1 陈麻婆豆腐",
+          "2 钟水饺",
+          "3 春熙路",
+          "4 宽窄巷子·三大炮",
+          "5 建设路·叶婆婆蛋烘糕",
+          "6 玉林路·小龙坎火锅",
+          "7 香香巷·肥肠粉",
+          "8 武侯祠大街·钵钵鸡",
+          "9 东郊记忆·冒椒火辣",
+          "10 人民公园·鹤鸣茶社",
+          "11 锦里古街·冰粉",
+          "12 双流老妈兔头"
+        ]
+      },
+      {
+        "title": "图例",
+        "position": "bottom-right",
+        "count": 5,
+        "items": [
+          "red dot",
+          "green house",
+          "green tree",
+          "blue line",
+          "yellow double line"
+        ],
+        "labels": [
+          "美食地点",
+          "地标景点",
+          "公园绿地",
+          "河流湖泊",
+          "主要道路"
+        ]
+      }
+    ],
+    "bottom_right_extras": [
+      "vintage compass rose with N, S, E, W",
+      "small disclaimer text: 温馨提示：吃辣需谨慎，肠胃要保护~ with a red chili pepper icon"
+    ]
+  },
+  "text_rules": [
+    "Use large, legible Chinese labels only.",
+    "Prefer short labels over paragraph text.",
+    "Avoid tiny microtext and fake sponsor logos.",
+    "Keep numbering 1 to 12 visually clear and consistent."
+  ],
+  "negative_prompt": "photorealistic satellite map, generic flat vector UI, tiny unreadable text, dense paragraph blocks, fake logos, sponsor banners, visual clutter, random cars, unrelated people, extra landmarks not requested, dark moody lighting, heavy shadows, glossy highlights, perspective distortion, messy route lines, broken Chinese characters, duplicated icons, overdecorated border",
+  "quality_notes": [
+    "Treat the image as a polished wayfinding poster, not a fantasy illustration only.",
+    "The map must remain readable at a glance.",
+    "Balance charm and navigation clarity."
+  ]
+}
